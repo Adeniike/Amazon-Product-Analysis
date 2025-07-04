@@ -82,7 +82,8 @@ This table summarizes the 14 key questions explored during the analysis of Amazo
 
 ### VISUALS
 
-![Dashboard](https://github.com/user-attachments/assets/d32862b3-69ae-4099-99b4-a1ecca22df77)
+![Dashboard](https://github.com/user-attachments/assets/304325e3-4567-4a26-ade4-2d6b0d47da3d)
+
 
 
 
