@@ -1,15 +1,15 @@
-# Amazon-Product-Analysis
+## Amazon-Product-Analysis
 This project explores a dataset of Amazon product reviews. It includes data cleaning, exploratory data analysis (EDA), and visualizations using Microsoft Excel. The goal is to uncover insights into customer sentiment, rating patterns, and product performance.
 
-## Project Overview
-As a Junior Data Analyst at Retail Tech Insights, a company specializing in e-commerce analytics solutions for Amazon sellers, I was tasked with analyzing product and customer review data. The objective of this project is to uncover actionable insights that can support:
-- 📦 Product improvement by identifying common customer pain points and satisfaction drivers
-- 📣 Marketing strategies by highlighting top-performing products and review sentiment trends
-- 🤝 Customer engagement by understanding feedback patterns and review behavior
+### Project Overview
+While working as an Analyst at Retail Tech Insights,a company focused on e-commerce analytics for Amazon sellers. I conducted analysis on products, examining performance and customer review data. The objective of this project is to uncover actionable insights that can support:
+-  Product improvement by identifying common customer pain points and satisfaction drivers
+-  Marketing strategies by highlighting top-performing products and review sentiment trends
+-  Customer engagement by understanding feedback patterns and review behavior
 This analysis leverages Microsoft Excel for data cleaning, exploratory data analysis (EDA), and visualization. The findings aim to help Amazon sellers make data-informed decisions that enhance product offerings, optimize marketing efforts, and improve customer 
-## 📦 Dataset Overview
+### Dataset Overview
 This 1456 rows and 16 colunms dataset contains product and review data for items sold on Amazon. It includes pricing, discount levels, customer ratings, and estimated revenue metrics.
-### 🔑 Key Columns
+### Key Columns
 | Column Name           | Description |
 |-----------------------|-------------|
 | `Product_id`          | Unique identifier for each product |
@@ -26,18 +26,18 @@ This 1456 rows and 16 colunms dataset contains product and review data for items
 | `Discount`            | Discount level (High, Medium, etc.) |
 | `Rating_Score`        | Weighted score (Rating × Rating Count) |
 
-### 🧰 Tools Used
+###  Tools Used
 - Microsoft Excel (for data cleaning and visualization)
 
-### 🔍 Analysis Objectives
+###  Analysis Objectives
 - Identify top-rated and low-rated products
 - Analyze review volume and rating distribution
 - Detect patterns in customer sentiment
 - Explore correlations between review length, rating, and helpfulness
 
-### ✅  Data Cleaning Summary
+###  Data Cleaning Summary
 This document outlines the steps taken to clean and prepare the Amazon product review dataset for analysis using Microsoft Excel.
-### 🛠️ Cleaning Steps
+###  Cleaning Steps
 - **Used Delimiter Tool**:  
   Split combined columns using Excel’s delimiter feature to separate values cleanly (e.g., product names, Category,Review ID)
 - **Standardized Text Columns**:  
@@ -57,11 +57,11 @@ Created four new columns to enhance analysis:
    `Rating_Score = Rating × Rating_count`
    
 This section outlines the 14 key questions explored during the analysis, along with the tools used, methods applied, and insights discovered.
-# 📊 Exploratory Data Analysis (EDA Summary)
+### Exploratory Data Analysis (EDA Summary)
 
 This table summarizes the 14 key questions explored during the analysis of Amazon product review data, including the tools used, methods applied, and insights gained.
 
-| 🔢 No. | ❓ Question                                                                 | 🧰 Tool Used            | 🛠️ Method                                                                                  | 💡 Insight                                                                                   |
+|  No. |  Question                                                                 | Tool Used            |  Method                                                                                  |  Insight                                                                                   |
 |-------|------------------------------------------------------------------------------|--------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | 1     | What is the average discount percentage by product category?                | PivotTable               | Grouped by `Category`, averaged `Discount_percentage`                                       | *Computers & Accessories* had the highest average discounts (60%+)                          |
 | 2     | How many products are listed under each category?                           | PivotTable               | Counted unique `Product_id` values grouped by `Category`                                    | Dataset is focused on *Computers & Accessories*                                              |
@@ -80,55 +80,49 @@ This table summarizes the 14 key questions explored during the analysis of Amazo
   
 
 
-## VISUALS
+### VISUALS
+
+![Dashboard](https://github.com/user-attachments/assets/d32862b3-69ae-4099-99b4-a1ecca22df77)
 
 
 
-# 📈 Insights & Recommendations
+![Cleaned Data](https://github.com/user-attachments/assets/b8d60b8b-97c6-44a4-af76-996bb9aba7bb)
+
+
+![Raw dataset](https://github.com/user-attachments/assets/5343e0b4-d14f-46c1-8b78-e655018e1916)
+
+
+
+### Insights & Recommendations
 
 This section summarizes the key findings from the analysis of Amazon product review data, based on the Excel dashboard created during the project.
 
-## 🔍 Key Insights
+###  Key Insights
 
-### 1. 💰 Top Revenue Drivers
+### 1. Top Revenue Drivers
 - Products like **Boat Deuce USB** and **Ambrane Unbreakable 60W** generate the highest potential revenue.
 - These products combine high review volume with competitive pricing, making them strong performers in both sales and customer engagement.
 
-### 2. 🎯 Price Buckets & Performance
+### 2. Price Buckets & Performance
 - The majority of products fall into the `₹200–500` and `>₹500` price buckets.
 - These segments show strong average ratings (4.0+), indicating that customers are satisfied with mid-range and premium-priced products.
 
-### 3. 🏷️ Discount Strategy
+### 3. Discount Strategy
 - Products with **High Discounts** (up to 90%) still maintain solid ratings.
 - This suggests that aggressive discounting can drive volume without negatively impacting customer satisfaction—an opportunity for promotional campaigns.
 
-### 4. ⭐ Rating Score as a Composite Metric
+### 4. Rating Score as a Composite Metric
 - The `Rating_Score` (Rating × Rating_count) highlights products that are both popular and well-reviewed.
 - This metric is useful for prioritizing products in marketing, inventory planning, and customer targeting.
 
-### 5. 🧩 Category Focus
+### 5. Category Focus
 - All products analyzed fall under **Computers & Accessories**, with a strong presence of USB cables and charging accessories.
 - This indicates a high-demand subcategory that sellers can focus on for bundling, upselling, or cross-promotion.
 
-## 📌 Recommendations
+### Recommendations
 
-- **Double down on high-performing products** with strong `Rating_Score` and revenue potential.
+This Amazon product review analysis for RetailTech Insights provides a comprehensive understanding of product performance, pricing dynamics, and customer engagement across various categories.
 - **Use discounts strategically** to boost volume without compromising product perception.
 - **Target mid-range price buckets** in marketing campaigns, as they show the best balance of value and satisfaction.
 - **Monitor review trends** to identify emerging issues or opportunities for product improvement.
 
-# 📊 Exploratory Data Analysis (EDA)
-
-
-
-
-
-
-
-
-## 📊 Key Visualizations
-
-- Bar chart of most-reviewed products
-- Histogram of rating distribution
-- Line chart of review trends over time
-- Pivot charts for category-level insights
